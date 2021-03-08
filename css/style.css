@@ -1,0 +1,63 @@
+div {
+    margin: auto;
+    width: 1440px;
+    min-height: 700px;
+    }
+
+header {
+       display: flex;
+       flex-direction: column-reverse;
+       }
+
+figure {
+       float: right;
+       margin: auto;
+       }
+
+h1 {
+    margin: auto;
+    display:flex;
+    align-items:center;
+    float:left;  
+    font-size: 32px;
+    font-weight: bold;
+    }
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+mark {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: inherit;
+    }
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: inherit ;
+    }
+
+code {
+    display: block;
+    margin: auto;
+    width: max-content;
+    white-space: pre;
+    background-color: grey;
+}
+
+section {
+    display: block;
+    float: left;
+    width: inherit;
+    text-align: center;
+    }
